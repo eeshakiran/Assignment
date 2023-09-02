@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+    <form id="studentForm">
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo" name="rollNo" disabled>
+        <br>
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" disabled>
+        <br>
+
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" disabled>
+        <br>
+
+        <label for="birthDate">Birth Date:</label>
+        <input type="text" id="birthDate" name="birthDate" disabled>
+        <br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" disabled>
+        <br>
+
+        <label for="enrollmentDate">Enrollment Date:</label>
+        <input type="text" id="enrollmentDate" name="enrollmentDate" disabled>
+        <br>
+
+        <button type="button" id="saveButton" onclick="saveData()">Save</button>
+        <button type="button" id="updateButton" onclick="updateData()" disabled>Update</button>
+        <button type="button" id="resetButton" onclick="resetForm()">Reset</button>
+    </form>
+
+    <script>
+        function saveData() {
+            // Implement logic to save data in the database here
+        }
+
+        function updateData() {
+            // Implement logic to update data in the database here
+        }
+
+        function resetForm() {
+            // Implement logic to reset the form here
+        }
+    </script>
+</body>
+</html>
